@@ -1,0 +1,16 @@
+{
+  "name": "Author",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {},
+  "validations": [],
+  "relations": {
+	  "image": {
+	      "type": "hasOne",
+	      "model": "Picture",
+	      "polymorphic": "imageable"
+	   }
+  },
+  "acls": [],
+  "methods": []
+}

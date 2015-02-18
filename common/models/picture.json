@@ -1,0 +1,15 @@
+{
+  "name": "Picture",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "properties": {},
+  "validations": [],
+  "relations": {
+	  "imageable": {
+	      "type": "belongsTo",
+	      "polymorphic": true
+	  }
+  },
+  "acls": [],
+  "methods": []
+}
