@@ -1,4 +1,4 @@
-#loopback-sandbox
+#loopback-angular-sdk-polymorphic-issue
 
 A repository for reproducing an issue with loopback-angular-sdk, in which lb-ng is ignorant of polymorphic relations.
 
